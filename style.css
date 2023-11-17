@@ -4,20 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
+}
+
+header {
+    background-color: #3161e0;
 }
 
 header nav {
     height: 100px;
-    background-color: #3161e0;
+    width: 75%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+a {
+    color: white;
 }
 
 header .main-section {
     min-height: 500px;
-    background-color: red;
+    /* background-color: red; */
     padding-top: 50px
 }
 
@@ -62,9 +71,9 @@ header .menu {
     gap: 50px;
 }
 
-main {
-    background-color: lightgray;
-}
+/* body {
+    background-color: #f6f6f6;
+} */
 
 main section {
     min-height: 600px;
@@ -101,6 +110,14 @@ main section {
     height: 40%;
 }
 
+#first, #third {
+    background-color: white;
+}
+
+#second, #last {
+    background-color: #f6f6f6;
+}
+
 #second figure {
     order: 1;
 }
@@ -129,7 +146,7 @@ main section {
 
 #last span {
     width: 500px;
-    height: 100px;
+    height: 50px;
     background-color: lightseagreen;
     order: 1;
 }
@@ -138,6 +155,95 @@ main section {
     order: 2;
 }
 
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 50px 0;
+}
+
+.container {
+    margin: 30px auto;
+    width: 75%;
+}
+
+.container .inner-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: space-between; */
+    /* padding-bottom: 20px;
+    border-bottom: 1px solid #3161e0; */
+}
+
+.container .foot-header {
+    width: 300px;
+    /* height: 300px; */
+    background-color: lightsalmon;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot-header h3 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.foot-header .language {
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+}
+
+.foot-header .socials {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot-header .socials a {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.foot-nav {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.foot-nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20%;
+}
+
+.foot-nav > ul > li > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+footer hr {
+    margin: 20px 0;
+    border: 1px solid #3161e0;
+    background-color: #3161e0;
+}
+
+button {
+    border-radius: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
 
 
-
+/*  EXERCISE COMPLETED  */
